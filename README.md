@@ -229,7 +229,7 @@ class TrivialDoctorEnvironment(Environment):
         print("AgentLocation : {0}".format(agent.location)) 
         print("Performance : {0}".format(agent.performance)) 
         time.sleep(3)
-```
+	
 <h3>OUTPUT</h3>
 	Status of Vacuum Cleaner before cleaning
 {(0, 0): 'clean', (1, 0): 'dirty'}
@@ -245,6 +245,7 @@ Performance : 10
 {(0, 0): 'clean', (1, 0): 'clean'}
 AgentLocation : (0, 0)
 Performance : 9
+
 <h3>RESULT</h3>
 Thus, an AI agent is developed.
 
