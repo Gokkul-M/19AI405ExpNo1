@@ -231,21 +231,22 @@ class TrivialDoctorEnvironment(Environment):
         time.sleep(3)
 	
 <h3>OUTPUT</h3>
-	Status of Vacuum Cleaner before cleaning
+```
+Status of Vacuum Cleaner before cleaning
 {(0, 0): 'clean', (1, 0): 'dirty'}
 AgentLocation : (1, 0)
 Performance : 0
 
-	Status of Vacuum Cleaner after cleaning
+Status of Vacuum Cleaner after cleaning
 {(0, 0): 'clean', (1, 0): 'clean'}
 AgentLocation : (1, 0)
 Performance : 10
 
-	Status of Vacuum Cleaner after cleaning
+Status of Vacuum Cleaner after cleaning
 {(0, 0): 'clean', (1, 0): 'clean'}
 AgentLocation : (0, 0)
 Performance : 9
-
+```
 <h3>RESULT</h3>
 Thus, an AI agent is developed.
 
