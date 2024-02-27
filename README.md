@@ -236,10 +236,12 @@ Status of Vacuum Cleaner before cleaning
 {(0, 0): 'clean', (1, 0): 'dirty'}
 AgentLocation : (1, 0)
 Performance : 0
+	
 Status of Vacuum Cleaner after cleaning
 {(0, 0): 'clean', (1, 0): 'clean'}
 AgentLocation : (1, 0)
 Performance : 10
+
 Status of Vacuum Cleaner after cleaning
 {(0, 0): 'clean', (1, 0): 'clean'}
 AgentLocation : (0, 0)
