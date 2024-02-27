@@ -235,7 +235,7 @@ if   __name__ == "__main__":
         print("AgentLocation : {0}".format(agent.location)) 
         print("Performance : {0}".format(agent.performance)) 
         time.sleep(3)
-        ```
+```
 <h3>OUTPUT</h3>
 
 	Status of patients in rooms before treatment
