@@ -38,7 +38,7 @@ Sensors: agent can perceive its location and whether location is dirty.
 <h3>STEP 4:Implementing the AI agent.</h3>
 <h3>STEP 5:Measure the performance parameters</h3>
 <h3>PROGRAM</h3>
-```
+~~~
 import random
 import time
 
@@ -229,9 +229,9 @@ class TrivialDoctorEnvironment(Environment):
         print("AgentLocation : {0}".format(agent.location)) 
         print("Performance : {0}".format(agent.performance)) 
         time.sleep(3)
-	
+~~~
 <h3>OUTPUT</h3>
-```
+~~~
 Status of Vacuum Cleaner before cleaning
 {(0, 0): 'clean', (1, 0): 'dirty'}
 AgentLocation : (1, 0)
@@ -246,7 +246,7 @@ Status of Vacuum Cleaner after cleaning
 {(0, 0): 'clean', (1, 0): 'clean'}
 AgentLocation : (0, 0)
 Performance : 9
-```
+~~~
 <h3>RESULT</h3>
 Thus, an AI agent is developed.
 
